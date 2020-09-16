@@ -1,0 +1,48 @@
+tip: 0
+tip_version: 1
+tip_linked_cells: 1
+tip_x_cells: 0
+tip_y_cells: 3
+tip_z_cells: 3
+interaction: 1
+linked_cells: 1
+seed: 1
+resume_flag: 0
+csvout_flag: 0
+xyzout_flag: 0
+xyz_animation: 1000
+temperature_in_K: 300
+timestep_in_fsec: 1
+integrations(myN): 10000000
+console_out: 500
+write_interval: 1
+write_resume:	10000
+VACF_last_steps: 5000000
+pos_out: 0
+vel_out: 0
+x_cells: 0
+y_cells: 3
+z_cells: 3
+
+contactP: 0.05
+particleP: 0.1
+berendsen_t: 100
+Tintervals: 1
+1	1000000	300
+
+bulkM: 0.97
+berendsen_p: 500
+Pintervals: 1
+1	1000000	0	0	0	y	y	y
+
+Fxtarget:	0
+Fytarget:	0
+Fztarget:	-12
+tip_ux:	0
+tip_uy:	0
+tip_uz: 0
+tip_gamma_x:	5.0e-2
+tip_gamma_y:	5.0e-2
+tip_gamma_z:	5.0e-2
+kx:	0
+ky: 0
